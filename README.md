@@ -53,6 +53,18 @@ cd ble-motion-detection
 Install all necessary Python dependencies:
 pip install -r requirements.txt
 
+
+##Build and Run the Docker Image## (Docker)
+For Linux/macOS/Windows (via WSL 2):
+Build the Docker Image:
+
+Open a terminal and navigate to the project folder (D:\BLE_Motion_Detection).
+*Build the Docker image using the following command:
+docker build -t ble-motion-detection .
+
+**Run the Docker Container:
+docker run --rm --privileged --device /dev/ttyUSB0 ble-motion-detection
+
 3. Run the App:
 Once everything is installed, you can start the app. Use the following command to scan for BLE devices:
 python ble_motion_detection.py
