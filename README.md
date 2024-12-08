@@ -46,7 +46,7 @@ requirements.txt
 ##Installation Steps
 1. Clone the Repository:
 If you're starting from a GitHub repository, clone it first:
-git clone https://github.com/your-repository/ble-motion-detection.git
+git clone https://github.com/karthik-kumar-s/BLE_Motion_Detection.git
 cd ble-motion-detection
 
 2. Install Dependencies:
