@@ -41,7 +41,7 @@ macOS usually comes with Python 2.7 pre-installed, but you'll need to install Py
 brew install python
 
 ##Install Required Libraries:
-requirements.txt
+pip install -r requirements.txt
 
 ##Installation Steps
 1. Clone the Repository:
