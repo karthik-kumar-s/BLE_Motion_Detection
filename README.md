@@ -25,7 +25,7 @@ Make sure Python 3.9 or later is installed. You can check your Python version us
 python3 --version
 
 
-If Python is not installed, follow these steps:
+## **If Python is not installed, follow these steps**:
 
 ##For Ubuntu (Linux):
 sudo apt update
